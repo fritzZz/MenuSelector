@@ -12,24 +12,23 @@ How you can see, this is a typical list with a div container (nav_wrap) used to 
 "active_nav" is the name of the class for the selected menu, this class name can be changed in the options of Mootools class. 
 
 ### HTML
-
-<div id="nav_wrap"> 
-	<div id="nav"> 
-		<ul> 
-		<li  id="active_nav" > 
-			<a href="http://localhost:8080/fooApp/"> 
-				<span>Home</span> 
-			</a> 
-		</li>  
-	
-		<li > 
-			<a href="http://localhost:8080/fooApp/Blog"> 
-				<span>Blog</span> 
-			</a> 
-		</li>  
-		</ul> 
+	<div id="nav_wrap"> 
+		<div id="nav"> 
+			<ul> 
+			<li  id="active_nav" > 
+				<a href="http://localhost:8080/fooApp/"> 
+					<span>Home</span> 
+				</a> 
+			</li>  
+		
+			<li > 
+				<a href="http://localhost:8080/fooApp/Blog"> 
+					<span>Blog</span> 
+				</a> 
+			</li>  
+			</ul> 
+		</div> 
 	</div> 
-</div> 
 
 This is the version of my sample for an orizzontal menu.
 
