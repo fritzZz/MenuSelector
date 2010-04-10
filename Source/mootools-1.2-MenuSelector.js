@@ -1,25 +1,20 @@
-/*----------------------------------------------------------------------------\
-|                               MenuSelector v0.9                             |
-|-----------------------------------------------------------------------------|
-|                         Created by Alessandro Franzi                        |
-|               (http://franziale.blogspot.com)                               |
-|               (http://it.linkedin.com/in/alessandrofranzi)                  |
-|-----------------------------------------------------------------------------|
-| This software is under GNU General Public License                           |
-| - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-| GPL - The GNU General Public License    http://www.gnu.org/licenses/gpl.txt |
-| Permits anyone the right to use and modify the software without limitations |
-| as long as proper  credits are given  and the original  and modified source |
-| code are included. Requires  that the final product, software derivate from |
-| the original  source or any  software  utilizing a GPL  component, such  as |
-| this, is also licensed under the GPL license.                               |
-|-----------------------------------------------------------------------------|
-| 2010-04-09 | First working version                                          |
-|-----------------------------------------------------------------------------|
-| Dependencies: mootools 1.2 												  |	
-|-----------------------------------------------------------------------------|
-| Created 2010-04-09 | All changes are in the log above. | Updated 2010-04-09 |
-\----------------------------------------------------------------------------*/
+/*
+---
+description: MenuSelector
+ 
+authors:
+- Alessandro Franzi aka fritzzz (http://franziale.blogspot.com)
+ 
+license:
+- MIT-style license
+ 
+requires:
+core/1.2.4: '*'
+ 
+provides:
+- MenuSelector
+...
+*/
 var MenuSelector = new Class({
 
 	Implements: [Events, Options],
