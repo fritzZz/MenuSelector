@@ -20,7 +20,6 @@ How you can see, this is a typical list with a div container (nav_wrap) used to 
 					<span>Home</span> 
 				</a> 
 			</li>  
-		
 			<li > 
 				<a href="http://localhost:8080/fooApp/Blog"> 
 					<span>Blog</span> 
