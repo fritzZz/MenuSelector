@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>MenuSelector - sample
+		</title>
+		<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" language="JavaScript" src="js/mootools-1.2.1-core-nc.js"></script>  
+		<script type="text/javascript" language="JavaScript" src="js/mootools-1.2-more.js"></script>
+		<script type="text/javascript" language="JavaScript" src="js/mootools-1.2-MenuSelector.js"></script>  
+	</head>
+	<body>
+		<!-- MENU : inizio --> 
+		<div id="nav_wrap"> 
+			<div id="nav"> 
+				<ul> 
+				<li  id="active_nav" > 
+					<a href="http://localhost:8080/fooApp/"> 
+						<span>Home</span> 
+					</a> 
+				</li>  
+			
+				<li > 
+					<a href="http://localhost:8080/fooApp/Blog"> 
+						<span>Blog</span> 
+					</a> 
+				</li>  
+				</ul> 
+			</div> 
+		</div> 
+		<script> 
+		var opt = { 
+		  id : 'nav_wrap_sub',
+		  bg_position : '32px'
+		}
+			// menu init
+			window.addEvent('domready', function() {
+				var mySubMenuSelector = new MenuSelector(opt);
+				var myMenuSelector = new MenuSelector();
+			});
+		</script> 
+		<!-- MENU : fine --> 
+		<p></p>
+		<!-- SOTTOMENU : inizio --> 
+		<div id="nav_wrap_sub"> 
+			<div id="nav"> 
+				<ul> 
+					<li  id="active_nav" > 
+						<a href="http://localhost:8080/fooApp/Sport"> 
+							<span>Sport</span> 
+						</a> 
+					</li>  
+				
+					<li > 
+						<a href="http://localhost:8080/fooApp/LifeTime"> 
+							<span>LifeTime</span> 
+						</a> 
+					</li>  
+				</ul> 
+			</div> 
+		</div> 
+		<!-- SOTTOMENU : fine -->
+	</body>
+</html>
